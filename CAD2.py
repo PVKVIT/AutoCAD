@@ -16,7 +16,7 @@ from PyQt5.QtWidgets import ( #type: ignore
 from PyQt5.QtCore import Qt, QThread, pyqtSignal, QSize #type: ignore
 from PyQt5.QtGui import QFont, QColor, QPalette, QIcon #type: ignore
 
-API_KEY = "AIzaSyA1SG5TIxuTb62cGhBHvJ07E5QIu0wawhw"
+API_KEY = ""
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 def custom_exception_hook(exctype, value, tb):
